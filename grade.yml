@@ -1,0 +1,319 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Menu des grades'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 3
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  command: 'grade'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have placeholders in icon descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # These actions will be executed when the menu is opened.
+  # Supports all the icon action types.
+  open-actions:
+  - ''
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+
+1:
+  COMMAND: 'console: lp user {player} parent add Fer' #Groupmanager : console: manuadd {player} Fer  #PermissionEx : console: pex user {player} group set Fer
+  NAME: '&7Grade Fer'
+  LORE:
+    - '&6Acheter le grade Fer pour 5.000 Coins'
+  KEEP-OPEN: true
+  ID: iron_ingot
+  PRICE: 5000
+  POSITION-X: 3
+  POSITION-Y: 2
+  
+  
+2:
+  COMMAND: 'console: lp user {player} parent add Or' #Groupmanager : console: manuadd {player} Or  #PermissionEx : console: pex user {player} group set Or
+  NAME: '&eGrade Or'
+  LORE:
+    - '&6Acheter le grade Or pour 10.000 Coins'
+  KEEP-OPEN: true
+  ID: gold_ingot
+  PRICE: 10000
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+  
+3:
+  COMMAND: 'console: lp user {player} parent add Diamant' #Groupmanager : console: manuadd {player} Diamant  #PermissionEx : console: pex user {player} group set Diamant
+  NAME: '&bGrade Diamant'
+  LORE:
+    - '&6Acheter le grade Diamant pour 15.000 Coins'
+  KEEP-OPEN: true
+  ID: diamond
+  PRICE: 15000
+  POSITION-X: 7
+  POSITION-Y: 2
+  
+  
+4:
+  COMMAND: ''
+  NAME: '&4Fermer le Menu'
+  LORE:
+    - ''
+  KEEP-OPEN: false
+  ID: barrier
+  POSITION-X: 9
+  POSITION-Y: 3
+  
+  
+5:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+6:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 2
+  POSITION-Y: 1
+  
+7:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 3
+  POSITION-Y: 1
+  
+8:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 4
+  POSITION-Y: 1
+  
+9:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 5
+  POSITION-Y: 1
+  
+10:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 6
+  POSITION-Y: 1
+  
+11:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 7
+  POSITION-Y: 1
+  
+12:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 8
+  POSITION-Y: 1
+  
+13:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 9
+  POSITION-Y: 1
+  
+  
+14:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 1
+  POSITION-Y: 2
+  
+15:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 2
+  POSITION-Y: 2
+  
+16:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 4
+  POSITION-Y: 2
+  
+17:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+18:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 8
+  POSITION-Y: 2
+  
+19:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 9
+  POSITION-Y: 2
+  
+20:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 1
+  POSITION-Y: 3
+  
+21:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 2
+  POSITION-Y: 3
+  
+22:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 3
+  POSITION-Y: 3
+  
+23:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 4
+  POSITION-Y: 3
+  
+24:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 5
+  POSITION-Y: 3
+  
+25:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 6
+  POSITION-Y: 3
+  
+26:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 7
+  POSITION-Y: 3
+  
+27:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  KEEP-OPEN: true
+  ID: '160:3'
+  POSITION-X: 8
+  POSITION-Y: 3
